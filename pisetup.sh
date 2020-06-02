@@ -214,7 +214,7 @@ cd $HOME/src/sdl2
 sleep 2
 
 echo "Downloading SDL2 from libsdl.org and unzipping to HOME/src/sdl2/SDL2"
-wget https://www.libsdl.org/release/SDL2-2.0.10.tar.gz
+wget https://www.libsdl.org/release/SDL2-2.0.12.tar.gz
 sync
 tar xzf ./SDL2*.gz
 sync
@@ -299,7 +299,7 @@ echo ""
 echo "Step 3. Compiling Super Mario 64 for the Raspberry Pi"
 echo ""
 echo "Warning: Super Mario 64 assets are required in order to compile"
-if [[ $curdir ==1 ]]
+if [[ $curdir == 1 ]]
 then
 echo "Assets will be extracted from "$PWD" "
 else
